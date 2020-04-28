@@ -1,4 +1,4 @@
-FROM keymetrics/pm2:8-jessie
+FROM keymetrics/pm2:12-jessie
 
 #install deps, build, remove initial sources, dev deps
 RUN apt-get update && apt-get install -y mysql-client --no-install-recommends
